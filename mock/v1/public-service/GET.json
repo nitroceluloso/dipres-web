@@ -1,0 +1,156 @@
+[
+    {
+        "creationDate": "2020-01-08T01:50:00.342Z",
+        "_id": "5e15354dcc0444c183357fb0",
+        "name": "Comisión Nacional de Riego",
+        "code": 2569,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:50:00.342Z",
+        "_id": "5e15354dcc0444c183357fb1",
+        "name": "Subsecretaría de Desarrollo Regional y Administrativo",
+        "code": 5321,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:50:00.342Z",
+        "_id": "5e15354dcc0444c183357fb2",
+        "name": "Subsecretaría de las Culturas y las Artes",
+        "code": 4005,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:50:00.342Z",
+        "_id": "5e15354dcc0444c183357fb5",
+        "name": "Corporación de Fomento de la Producción",
+        "code": 3956,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:50:00.342Z",
+        "_id": "5e15354dcc0444c183357fb3",
+        "name": "Corporación Nacional de Desarrollo Indígena",
+        "code": 4395,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:50:00.342Z",
+        "_id": "5e15354dcc0444c183357fb4",
+        "name": "Subsecretaría de Servicios Sociales",
+        "code": 3556,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:50:00.342Z",
+        "_id": "5e15354dcc0444c183357fb7",
+        "name": "Subsecretaría de Vivienda y Urbanismo",
+        "code": 3705,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:50:00.342Z",
+        "_id": "5e15354dcc0444c183357fb6",
+        "name": "Servicio de Cooperación Técnica",
+        "code": 3230,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:50:00.342Z",
+        "_id": "5e15354dcc0444c183357fb8",
+        "name": "Subsecretaría de Educación",
+        "code": 2793,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:50:00.342Z",
+        "_id": "5e15354dcc0444c183357fb9",
+        "name": "Gendarmeria de Chile",
+        "code": 1869,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:50:00.342Z",
+        "_id": "5e15354dcc0444c183357fbc",
+        "name": "Consejo Nacional de Televisión",
+        "code": 3013,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:50:00.342Z",
+        "_id": "5e15354dcc0444c183357fbb",
+        "name": "Agencia Chilena de Cooperación Internacional para el Desarrollo",
+        "code": 6094,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:50:00.342Z",
+        "_id": "5e15354dcc0444c183357fba",
+        "name": "Servicio Nacional de Menores",
+        "code": 2667,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:50:00.342Z",
+        "_id": "5e15354dcc0444c183357fbd",
+        "name": "Instituto de Desarrollo Agropecuario",
+        "code": 3572,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:50:00.342Z",
+        "_id": "5e15354dcc0444c183357fc1",
+        "name": "Servicio Nacional de Capacitación y Empleo",
+        "code": 4080,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:50:00.342Z",
+        "_id": "5e15354dcc0444c183357fc2",
+        "name": "Consejo Nacional de la Cultura y las Artes",
+        "code": 3844,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:50:00.342Z",
+        "_id": "5e15354dcc0444c183357fc0",
+        "name": "Subsecretaría del Interior",
+        "code": 2706,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:50:00.342Z",
+        "_id": "5e15354dcc0444c183357fbf",
+        "name": "Servicio Nacional para Prevención y Rehabilitación Consumo de Drogas y Alcohol",
+        "code": 7629,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:50:00.342Z",
+        "_id": "5e15354dcc0444c183357fbe",
+        "name": "Subsecretaría de Redes Asistenciales",
+        "code": 3637,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:50:00.342Z",
+        "_id": "5e15354dcc0444c183357fc3",
+        "name": "Dirección de Obras Hidráulicas",
+        "code": 3101,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:50:00.342Z",
+        "_id": "5e15354dcc0444c183357fc5",
+        "name": "Junta Nacional de Auxilio Escolar y Becas",
+        "code": 3755,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:50:00.342Z",
+        "_id": "5e15354dcc0444c183357fc4",
+        "name": "Subsecretaría de Energía",
+        "code": 2585,
+        "__v": 0
+    }
+]
