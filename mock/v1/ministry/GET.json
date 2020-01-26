@@ -1,0 +1,100 @@
+[
+    {
+        "creationDate": "2020-01-08T01:49:59.949Z",
+        "_id": "5e153549cc0444c183357fa2",
+        "name": "Agricultura",
+        "code": 1155,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:49:59.949Z",
+        "_id": "5e15354acc0444c183357fa3",
+        "name": "Interior y Seguridad Pública",
+        "code": 2818,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:49:59.949Z",
+        "_id": "5e15354acc0444c183357fa4",
+        "name": "Culturas, las Artes y el Patrimonio",
+        "code": 3274,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:49:59.949Z",
+        "_id": "5e15354acc0444c183357fa7",
+        "name": "Vivienda y Urbanismo",
+        "code": 1951,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:49:59.949Z",
+        "_id": "5e15354acc0444c183357fa6",
+        "name": "Economía, Fomento y Turismo",
+        "code": 2687,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:49:59.949Z",
+        "_id": "5e15354acc0444c183357fa5",
+        "name": "Desarrollo Social",
+        "code": 1682,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:49:59.949Z",
+        "_id": "5e15354acc0444c183357faa",
+        "name": "Relaciones Exteriores",
+        "code": 2127,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:49:59.949Z",
+        "_id": "5e15354acc0444c183357fa8",
+        "name": "Educación",
+        "code": 1039,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:49:59.949Z",
+        "_id": "5e15354acc0444c183357fab",
+        "name": "Secretaría General de Gobierno",
+        "code": 2979,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:49:59.949Z",
+        "_id": "5e15354acc0444c183357fa9",
+        "name": "Justicia y Derechos Humanos",
+        "code": 2589,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:49:59.949Z",
+        "_id": "5e15354acc0444c183357faf",
+        "name": "Energía",
+        "code": 831,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:49:59.949Z",
+        "_id": "5e15354acc0444c183357fac",
+        "name": "Salud",
+        "code": 505,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:49:59.949Z",
+        "_id": "5e15354acc0444c183357fad",
+        "name": "Trabajo y Previsión Social",
+        "code": 2618,
+        "__v": 0
+    },
+    {
+        "creationDate": "2020-01-08T01:49:59.949Z",
+        "_id": "5e15354acc0444c183357fae",
+        "name": "Obras Públicas",
+        "code": 1487,
+        "__v": 0
+    }
+]

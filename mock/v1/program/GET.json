@@ -1,0 +1,574 @@
+[
+    {
+        "evaluation": {
+            "description": "buen",
+            "value": 4
+        },
+        "creationDate": "2020-01-08T01:51:31.325Z",
+        "_id": "5e1535a54922a2c1b7f3cd9b",
+        "year": 2018,
+        "name": "Plan Microtráfico Cero - MT0",
+        "ministry": {
+            "creationDate": "2020-01-08T01:49:59.949Z",
+            "_id": "5e15354acc0444c183357fa3",
+            "name": "Interior y Seguridad Pública",
+            "code": 2818,
+            "__v": 0
+        },
+        "publicService": {
+            "creationDate": "2020-01-08T01:50:00.342Z",
+            "_id": "5e15354dcc0444c183357fc0",
+            "name": "Subsecretaría del Interior",
+            "code": 2706,
+            "__v": 0
+        },
+        "code": 2548,
+        "__v": 0
+    },
+    {
+        "evaluation": {
+            "description": "mal",
+            "value": 1
+        },
+        "creationDate": "2020-01-08T01:51:31.325Z",
+        "_id": "5e1535a54922a2c1b7f3cda7",
+        "year": 2018,
+        "name": "Chile Indígena",
+        "ministry": {
+            "creationDate": "2020-01-08T01:49:59.949Z",
+            "_id": "5e15354acc0444c183357fa5",
+            "name": "Desarrollo Social",
+            "code": 1682,
+            "__v": 0
+        },
+        "publicService": {
+            "creationDate": "2020-01-08T01:50:00.342Z",
+            "_id": "5e15354dcc0444c183357fb3",
+            "name": "Corporación Nacional de Desarrollo Indígena",
+            "code": 4395,
+            "__v": 0
+        },
+        "code": 1448,
+        "__v": 0
+    },
+    {
+        "evaluation": {
+            "description": "mal",
+            "value": 1
+        },
+        "creationDate": "2020-01-08T01:51:31.325Z",
+        "_id": "5e1535a54922a2c1b7f3cd9e",
+        "year": 2018,
+        "name": "Plan Nacional contra el Narcotráfico - PNCN",
+        "ministry": {
+            "creationDate": "2020-01-08T01:49:59.949Z",
+            "_id": "5e15354acc0444c183357fa3",
+            "name": "Interior y Seguridad Pública",
+            "code": 2818,
+            "__v": 0
+        },
+        "publicService": {
+            "creationDate": "2020-01-08T01:50:00.342Z",
+            "_id": "5e15354dcc0444c183357fc0",
+            "name": "Subsecretaría del Interior",
+            "code": 2706,
+            "__v": 0
+        },
+        "code": 3967,
+        "__v": 0
+    },
+    {
+        "evaluation": {
+            "description": "medio",
+            "value": 3
+        },
+        "creationDate": "2020-01-08T01:51:31.325Z",
+        "_id": "5e1535a54922a2c1b7f3cda4",
+        "year": 2018,
+        "name": "Fondo Nacional de Fomento del Libro y la Lectura",
+        "ministry": {
+            "creationDate": "2020-01-08T01:49:59.949Z",
+            "_id": "5e15354acc0444c183357fa8",
+            "name": "Educación",
+            "code": 1039,
+            "__v": 0
+        },
+        "publicService": {
+            "creationDate": "2020-01-08T01:50:00.342Z",
+            "_id": "5e15354dcc0444c183357fc2",
+            "name": "Consejo Nacional de la Cultura y las Artes",
+            "code": 3844,
+            "__v": 0
+        },
+        "code": 4351,
+        "__v": 0
+    },
+    {
+        "evaluation": {
+            "description": "bajo",
+            "value": 2
+        },
+        "creationDate": "2020-01-08T01:51:31.325Z",
+        "_id": "5e1535a54922a2c1b7f3cdb0",
+        "year": 2018,
+        "name": "Programas Estratégicos de Especialización Inteligente para la Competitividad",
+        "ministry": {
+            "creationDate": "2020-01-08T01:49:59.949Z",
+            "_id": "5e15354acc0444c183357fa6",
+            "name": "Economía, Fomento y Turismo",
+            "code": 2687,
+            "__v": 0
+        },
+        "publicService": {
+            "creationDate": "2020-01-08T01:50:00.342Z",
+            "_id": "5e15354dcc0444c183357fb5",
+            "name": "Corporación de Fomento de la Producción",
+            "code": 3956,
+            "__v": 0
+        },
+        "code": 7676,
+        "__v": 0
+    },
+    {
+        "evaluation": {
+            "description": "buen",
+            "value": 4
+        },
+        "creationDate": "2020-01-08T01:51:31.325Z",
+        "_id": "5e1535a54922a2c1b7f3cdad",
+        "year": 2018,
+        "name": "Recambio de Alumbrado Público",
+        "ministry": {
+            "creationDate": "2020-01-08T01:49:59.949Z",
+            "_id": "5e15354acc0444c183357faf",
+            "name": "Energía",
+            "code": 831,
+            "__v": 0
+        },
+        "publicService": {
+            "creationDate": "2020-01-08T01:50:00.342Z",
+            "_id": "5e15354dcc0444c183357fc4",
+            "name": "Subsecretaría de Energía",
+            "code": 2585,
+            "__v": 0
+        },
+        "code": 2869,
+        "__v": 0
+    },
+    {
+        "evaluation": {
+            "description": "medio",
+            "value": 3
+        },
+        "creationDate": "2020-01-08T01:51:31.325Z",
+        "_id": "5e1535a54922a2c1b7f3cdb6",
+        "year": 2018,
+        "name": "Desarrollo de Capacidades Tecnológicas para Bienes Públicos y para Innovación en Sectores Estratégicos",
+        "ministry": {
+            "creationDate": "2020-01-08T01:49:59.949Z",
+            "_id": "5e15354acc0444c183357fa6",
+            "name": "Economía, Fomento y Turismo",
+            "code": 2687,
+            "__v": 0
+        },
+        "publicService": {
+            "creationDate": "2020-01-08T01:50:00.342Z",
+            "_id": "5e15354dcc0444c183357fb5",
+            "name": "Corporación de Fomento de la Producción",
+            "code": 3956,
+            "__v": 0
+        },
+        "code": 10242,
+        "__v": 0
+    },
+    {
+        "evaluation": {
+            "description": "bajo",
+            "value": 2
+        },
+        "creationDate": "2020-01-08T01:51:31.325Z",
+        "_id": "5e1535a54922a2c1b7f3cdaa",
+        "year": 2018,
+        "name": "Obras de Riego",
+        "ministry": {
+            "creationDate": "2020-01-08T01:49:59.949Z",
+            "_id": "5e15354acc0444c183357fae",
+            "name": "Obras Públicas",
+            "code": 1487,
+            "__v": 0
+        },
+        "publicService": {
+            "creationDate": "2020-01-08T01:50:00.342Z",
+            "_id": "5e15354dcc0444c183357fc3",
+            "name": "Dirección de Obras Hidráulicas",
+            "code": 3101,
+            "__v": 0
+        },
+        "code": 1270,
+        "__v": 0
+    },
+    {
+        "evaluation": {
+            "description": "medio",
+            "value": 3
+        },
+        "creationDate": "2020-01-08T01:51:31.325Z",
+        "_id": "5e1535a54922a2c1b7f3cdb3",
+        "year": 2018,
+        "name": "Programas Tecnológicos Estratégicos",
+        "ministry": {
+            "creationDate": "2020-01-08T01:49:59.949Z",
+            "_id": "5e15354acc0444c183357fa6",
+            "name": "Economía, Fomento y Turismo",
+            "code": 2687,
+            "__v": 0
+        },
+        "publicService": {
+            "creationDate": "2020-01-08T01:50:00.342Z",
+            "_id": "5e15354dcc0444c183357fb5",
+            "name": "Corporación de Fomento de la Producción",
+            "code": 3956,
+            "__v": 0
+        },
+        "code": 3786,
+        "__v": 0
+    },
+    {
+        "evaluation": {
+            "description": "bajo",
+            "value": 2
+        },
+        "creationDate": "2020-01-08T01:51:31.325Z",
+        "_id": "5e1535a54922a2c1b7f3cdb9",
+        "year": 2018,
+        "name": "Subvención Pro-retención",
+        "ministry": {
+            "creationDate": "2020-01-08T01:49:59.949Z",
+            "_id": "5e15354acc0444c183357fa8",
+            "name": "Educación",
+            "code": 1039,
+            "__v": 0
+        },
+        "publicService": {
+            "creationDate": "2020-01-08T01:50:00.342Z",
+            "_id": "5e15354dcc0444c183357fb8",
+            "name": "Subsecretaría de Educación",
+            "code": 2793,
+            "__v": 0
+        },
+        "code": 2665,
+        "__v": 0
+    },
+    {
+        "evaluation": {
+            "description": "mal",
+            "value": 1
+        },
+        "creationDate": "2020-01-08T01:51:31.325Z",
+        "_id": "5e1535a54922a2c1b7f3cdbf",
+        "year": 2018,
+        "name": "Beca de Apoyo a la Retención Escolar (BARE)",
+        "ministry": {
+            "creationDate": "2020-01-08T01:49:59.949Z",
+            "_id": "5e15354acc0444c183357fa8",
+            "name": "Educación",
+            "code": 1039,
+            "__v": 0
+        },
+        "publicService": {
+            "creationDate": "2020-01-08T01:50:00.342Z",
+            "_id": "5e15354dcc0444c183357fc5",
+            "name": "Junta Nacional de Auxilio Escolar y Becas",
+            "code": 3755,
+            "__v": 0
+        },
+        "code": 3753,
+        "__v": 0
+    },
+    {
+        "evaluation": {
+            "description": "medio",
+            "value": 3
+        },
+        "creationDate": "2020-01-08T01:51:31.325Z",
+        "_id": "5e1535a54922a2c1b7f3cdbc",
+        "year": 2018,
+        "name": "Programa de Apoyo a la Retención Escolar (PARE)",
+        "ministry": {
+            "creationDate": "2020-01-08T01:49:59.949Z",
+            "_id": "5e15354acc0444c183357fa8",
+            "name": "Educación",
+            "code": 1039,
+            "__v": 0
+        },
+        "publicService": {
+            "creationDate": "2020-01-08T01:50:00.342Z",
+            "_id": "5e15354dcc0444c183357fc5",
+            "name": "Junta Nacional de Auxilio Escolar y Becas",
+            "code": 3755,
+            "__v": 0
+        },
+        "code": 4229,
+        "__v": 0
+    },
+    {
+        "evaluation": {
+            "description": "medio",
+            "value": 3
+        },
+        "creationDate": "2020-01-08T01:51:31.325Z",
+        "_id": "5e1535a54922a2c1b7f3cdc5",
+        "year": 2018,
+        "name": "Me Conecto para Aprender",
+        "ministry": {
+            "creationDate": "2020-01-08T01:49:59.949Z",
+            "_id": "5e15354acc0444c183357fa8",
+            "name": "Educación",
+            "code": 1039,
+            "__v": 0
+        },
+        "publicService": {
+            "creationDate": "2020-01-08T01:50:00.342Z",
+            "_id": "5e15354dcc0444c183357fc5",
+            "name": "Junta Nacional de Auxilio Escolar y Becas",
+            "code": 3755,
+            "__v": 0
+        },
+        "code": 2226,
+        "__v": 0
+    },
+    {
+        "evaluation": {
+            "description": "bajo",
+            "value": 2
+        },
+        "creationDate": "2020-01-08T01:51:31.325Z",
+        "_id": "5e1535a54922a2c1b7f3cdc2",
+        "year": 2018,
+        "name": "Yo Elijo mi PC",
+        "ministry": {
+            "creationDate": "2020-01-08T01:49:59.949Z",
+            "_id": "5e15354acc0444c183357fa8",
+            "name": "Educación",
+            "code": 1039,
+            "__v": 0
+        },
+        "publicService": {
+            "creationDate": "2020-01-08T01:50:00.342Z",
+            "_id": "5e15354dcc0444c183357fc5",
+            "name": "Junta Nacional de Auxilio Escolar y Becas",
+            "code": 3755,
+            "__v": 0
+        },
+        "code": 1156,
+        "__v": 0
+    },
+    {
+        "evaluation": {
+            "description": "medio",
+            "value": 3
+        },
+        "creationDate": "2020-01-08T01:51:31.325Z",
+        "_id": "5e1535a54922a2c1b7f3cdc8",
+        "year": 2018,
+        "name": "Intervención y/o control de la población penada sujeta a la Ley 18.216",
+        "ministry": {
+            "creationDate": "2020-01-08T01:49:59.949Z",
+            "_id": "5e15354acc0444c183357fa9",
+            "name": "Justicia y Derechos Humanos",
+            "code": 2589,
+            "__v": 0
+        },
+        "publicService": {
+            "creationDate": "2020-01-08T01:50:00.342Z",
+            "_id": "5e15354dcc0444c183357fb9",
+            "name": "Gendarmeria de Chile",
+            "code": 1869,
+            "__v": 0
+        },
+        "code": 6462,
+        "__v": 0
+    },
+    {
+        "evaluation": {
+            "description": "mal",
+            "value": 1
+        },
+        "creationDate": "2020-01-08T01:51:31.325Z",
+        "_id": "5e1535a54922a2c1b7f3cd92",
+        "year": 2018,
+        "name": "Plan de Ingreso, Formación y Retención de Profesionales Especialistas en el Sector Público de Salud",
+        "ministry": {
+            "creationDate": "2020-01-08T01:49:59.949Z",
+            "_id": "5e15354acc0444c183357fac",
+            "name": "Salud",
+            "code": 505,
+            "__v": 0
+        },
+        "publicService": {
+            "creationDate": "2020-01-08T01:50:00.342Z",
+            "_id": "5e15354dcc0444c183357fbe",
+            "name": "Subsecretaría de Redes Asistenciales",
+            "code": 3637,
+            "__v": 0
+        },
+        "code": 9587,
+        "__v": 0
+    },
+    {
+        "evaluation": {
+            "description": "medio",
+            "value": 3
+        },
+        "creationDate": "2020-01-08T01:51:31.325Z",
+        "_id": "5e1535a54922a2c1b7f3cd8f",
+        "year": 2018,
+        "name": "Fondo de Farmacia para Enfermedades Crónicas No Transmisibles en Atención Primaria de Salud (FOFAR)",
+        "ministry": {
+            "creationDate": "2020-01-08T01:49:59.949Z",
+            "_id": "5e15354acc0444c183357fac",
+            "name": "Salud",
+            "code": 505,
+            "__v": 0
+        },
+        "publicService": {
+            "creationDate": "2020-01-08T01:50:00.342Z",
+            "_id": "5e15354dcc0444c183357fbe",
+            "name": "Subsecretaría de Redes Asistenciales",
+            "code": 3637,
+            "__v": 0
+        },
+        "code": 9195,
+        "__v": 0
+    },
+    {
+        "evaluation": {
+            "description": "mal",
+            "value": 1
+        },
+        "creationDate": "2020-01-08T01:51:31.325Z",
+        "_id": "5e1535a54922a2c1b7f3cd89",
+        "year": 2018,
+        "name": "Programa de Desarrollo Local (PRODESAL)",
+        "ministry": {
+            "creationDate": "2020-01-08T01:49:59.949Z",
+            "_id": "5e153549cc0444c183357fa2",
+            "name": "Agricultura",
+            "code": 1155,
+            "__v": 0
+        },
+        "publicService": {
+            "creationDate": "2020-01-08T01:50:00.342Z",
+            "_id": "5e15354dcc0444c183357fbd",
+            "name": "Instituto de Desarrollo Agropecuario",
+            "code": 3572,
+            "__v": 0
+        },
+        "code": 3375,
+        "__v": 0
+    },
+    {
+        "evaluation": {
+            "description": "medio",
+            "value": 3
+        },
+        "creationDate": "2020-01-08T01:51:31.325Z",
+        "_id": "5e1535a54922a2c1b7f3cd8c",
+        "year": 2018,
+        "name": "Bono Logro Escolar",
+        "ministry": {
+            "creationDate": "2020-01-08T01:49:59.949Z",
+            "_id": "5e15354acc0444c183357fa5",
+            "name": "Desarrollo Social",
+            "code": 1682,
+            "__v": 0
+        },
+        "publicService": {
+            "creationDate": "2020-01-08T01:50:00.342Z",
+            "_id": "5e15354dcc0444c183357fb4",
+            "name": "Subsecretaría de Servicios Sociales",
+            "code": 3556,
+            "__v": 0
+        },
+        "code": 1690,
+        "__v": 0
+    },
+    {
+        "evaluation": {
+            "description": "medio",
+            "value": 3
+        },
+        "creationDate": "2020-01-08T01:51:31.325Z",
+        "_id": "5e1535a54922a2c1b7f3cd95",
+        "year": 2018,
+        "name": "Actuar a Tiempo",
+        "ministry": {
+            "creationDate": "2020-01-08T01:49:59.949Z",
+            "_id": "5e15354acc0444c183357fa3",
+            "name": "Interior y Seguridad Pública",
+            "code": 2818,
+            "__v": 0
+        },
+        "publicService": {
+            "creationDate": "2020-01-08T01:50:00.342Z",
+            "_id": "5e15354dcc0444c183357fbf",
+            "name": "Servicio Nacional para Prevención y Rehabilitación Consumo de Drogas y Alcohol",
+            "code": 7629,
+            "__v": 0
+        },
+        "code": 1391,
+        "__v": 0
+    },
+    {
+        "evaluation": {
+            "description": "medio",
+            "value": 3
+        },
+        "creationDate": "2020-01-08T01:51:31.325Z",
+        "_id": "5e1535a54922a2c1b7f3cd98",
+        "year": 2018,
+        "name": "Prevención en Programas Educacionales",
+        "ministry": {
+            "creationDate": "2020-01-08T01:49:59.949Z",
+            "_id": "5e15354acc0444c183357fa3",
+            "name": "Interior y Seguridad Pública",
+            "code": 2818,
+            "__v": 0
+        },
+        "publicService": {
+            "creationDate": "2020-01-08T01:50:00.342Z",
+            "_id": "5e15354dcc0444c183357fbf",
+            "name": "Servicio Nacional para Prevención y Rehabilitación Consumo de Drogas y Alcohol",
+            "code": 7629,
+            "__v": 0
+        },
+        "code": 3756,
+        "__v": 0
+    },
+    {
+        "evaluation": {
+            "description": "bajo",
+            "value": 2
+        },
+        "creationDate": "2020-01-08T01:51:31.325Z",
+        "_id": "5e1535a54922a2c1b7f3cda1",
+        "year": 2018,
+        "name": "Subsidio al Empleo Joven (SEJ)",
+        "ministry": {
+            "creationDate": "2020-01-08T01:49:59.949Z",
+            "_id": "5e15354acc0444c183357fad",
+            "name": "Trabajo y Previsión Social",
+            "code": 2618,
+            "__v": 0
+        },
+        "publicService": {
+            "creationDate": "2020-01-08T01:50:00.342Z",
+            "_id": "5e15354dcc0444c183357fc1",
+            "name": "Servicio Nacional de Capacitación y Empleo",
+            "code": 4080,
+            "__v": 0
+        },
+        "code": 2598,
+        "__v": 0
+    }
+]
