@@ -26,7 +26,7 @@ export const handleError = (flagCheckLoading: boolean = true, json?: any) => {
 
         return new Promise((resolve) => {
             // const data = transalatePayload(statusCode, resp.response.data, json)
-            resolve(resp.response.data);
+            resolve(resp.response?.data);
         });
     }
 }

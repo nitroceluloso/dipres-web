@@ -4,7 +4,7 @@ import { defaultThen, handleError } from "./Axios.helper";
 
 export class AxiosFacade {
 
-    static get<T>(url: string, params: T): Promise<T> {
+    static get<T>(url: string, params?: T): Promise<T> {
         const request: AxiosRequestConfig = {
             method: "get",
             url,
