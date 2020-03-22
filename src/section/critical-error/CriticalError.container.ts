@@ -3,7 +3,7 @@ import { CritalError } from "./CriticalError.component";
 import { connect } from "react-redux";
 import { GlobalState } from "../../store/types";
 
-const mapStateToProps = (state: Partial<GlobalState>) => {
+const mapStateToProps = (state: GlobalState) => {
     return {
         criticalError: state.criticalError
     }
