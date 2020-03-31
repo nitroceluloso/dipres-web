@@ -22,7 +22,7 @@ export const routes: Array<RoutesInterface> = [
     },
     {
         key: "PROGRAM",
-        path: "/program",
+        path: ["/program", "/"],
         exact: true,
         component: ProgramContainer
     }
