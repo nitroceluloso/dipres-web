@@ -9,7 +9,7 @@ import { ColumnInstance } from 'react-table';
 
 const TableBody: React.SFC<TableBodyProps> = (props) => {
     return (
-        <thead className="ui-table--header">
+        <thead className="ui-table__header">
             <tr>
             {
                 props.columns.map((el: ColumnInstance, idx: number) => {

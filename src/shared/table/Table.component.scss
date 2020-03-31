@@ -1,4 +1,26 @@
 
+$table-header: #e0e0e0;
+$table-row-even: #f2f2f2;
+$table-row-odd: transparent;
+
 .ui-table {
-    border: 1px solid gray;
+
+    border-collapse: collapse;
+
+    .ui-table__header {
+        background-color: $table-header;
+
+        th{
+            padding: 0.8rem 1.6rem;
+        }
+    }
+
+    .ui-table__body .ui-table__body-row:nth-child(even) .ui-table__body-cell {
+        background-color: $table-row-even;
+    }
+
+    .ui-table__body .ui-table__body-row:nth-child(odd) .ui-table__body-cell {
+        background-color: $table-row-odd;
+    }
+
 }
