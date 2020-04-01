@@ -1,8 +1,9 @@
 
 import * as React from 'react';
-import { Column } from 'react-table';
+import { CellProps } from 'react-table';
+import { Program } from "../../../../services/program/types";
 
-export const tableHeader: Array<Column<any>> = [
+export const tableHeader = [
     {
         Header: 'Nombre',
         accessor: 'name'
@@ -18,13 +19,11 @@ export const tableHeader: Array<Column<any>> = [
     {
         Header: 'Calificacion',
         accessor: 'evaluation.value',
-        Cell: ({ row }) => {
-            const { original } = row;
-
+        Cell: ( cellProps: CellProps<Program> ) => {
             return (
                 <div>
                     {
-                        original.evaluation.description
+                        cellProps.row.original.evaluation.description
                     }
                 </div>
             )

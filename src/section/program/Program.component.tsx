@@ -4,9 +4,8 @@ import * as React from 'react';
 import { ProgramSectionProps, ProgramState } from "./types";
 import { fetchProgramAction } from "../../store/program/actions";
 
-import Table from "../../shared/table/Table.component";
-import { tableHeader } from "./Program.helper";
 import ProgramChart from "./components/program-chart/ProgramChart";
+import ProgramTable from "./components/program-table/ProgramTable.component";
 // import { DispatchProp } from 'react-redux';
 
 class Program extends React.Component<ProgramSectionProps, ProgramState> {
@@ -34,7 +33,7 @@ class Program extends React.Component<ProgramSectionProps, ProgramState> {
                 </div>
 
                 <div className="Program__table">
-                    <Table data={programListRaw} config={tableHeader} />
+                    <ProgramTable programList={programListRaw} />
                 </div>
 
             </div>
