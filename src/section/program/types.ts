@@ -1,12 +1,14 @@
 
 import { Program } from "../../services/program/types";
 import { RouteProps } from "react-router";
-import {  } from "module";
+import { DispatchProp } from 'react-redux';
+import { Dictionary } from "../../helpers/types";
 
 export interface ProgramProps {
-    programListRaw: Array<Program>
+    programListRaw: Array<Program>,
+    programByResult: Dictionary<number>
 }
 
-export interface ProgramSectionProps extends ProgramProps, RouteProps {};
+export interface ProgramSectionProps extends ProgramProps, RouteProps, DispatchProp  {};
 
 export interface ProgramState {}

@@ -7,7 +7,7 @@ import { fetchProgramAction } from "../../store/program/actions";
 import Table from "../../shared/table/Table.component";
 import { tableHeader } from "./Program.helper";
 import ProgramChart from "./components/program-chart/ProgramChart";
-import { DispatchProp } from 'react-redux';
+// import { DispatchProp } from 'react-redux';
 
 class Program extends React.Component<ProgramSectionProps, ProgramState> {
     constructor(props: ProgramSectionProps) {
@@ -23,14 +23,14 @@ class Program extends React.Component<ProgramSectionProps, ProgramState> {
     }
 
     render() {
-        const { programListRaw } = this.props;
+        const { programListRaw = [], programByResult } = this.props;
 
         return (
             <div className="Program">
                 <h1>Programas</h1>
 
                 <div className="Program__chart">
-                    <ProgramChart />
+                    <ProgramChart data={programByResult} />
                 </div>
 
                 <div className="Program__table">

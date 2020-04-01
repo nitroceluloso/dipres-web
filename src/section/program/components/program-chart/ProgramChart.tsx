@@ -1,30 +1,26 @@
 
 import * as React from 'react';
-import { PieChart, Pie, Tooltip } from "recharts";
+import { ProgramPieChartProps } from "./types";
+import { VictoryPie } from "victory";
 
-export interface ProgramPieChartProps {
-    
-}
- 
-const ProgramPieChart: React.SFC<ProgramPieChartProps> = () => {
-    const data = [{name: 'Group A', value: 400}, {name: 'Group B', value: 300},
-    {name: 'Group C', value: 300}, {name: 'Group D', value: 200},
-    {name: 'Group E', value: 278}, {name: 'Group F', value: 189}];
+const ProgramPieChart: React.SFC<ProgramPieChartProps> = ({ data }) => {
+    const showData = Object.keys(data).map((name) => { return { name, value: data[name], } })
+
     return (
-        <div>
-            <PieChart width={800} height={400}>
-                <Pie
-                     dataKey={6}
-                    data={data}
-                    cx={200}
-                    cy={200}
-                    outerRadius={80}
-                    label
-                />
-                <Tooltip/>
-            </PieChart>
+        <div style={ {width: '450px', height: '400px'} }>
+            <VictoryPie
+                height={400}
+                width={450}
+                data={showData}
+                x='name'
+                y='value'
+                innerRadius={50}
+                colorScale="qualitative"
+                labels={ (el) => { return `${el.datum.name} (${el.datum.value})` } }
+            />
+
         </div>
     );
 }
- 
+
 export default ProgramPieChart;
