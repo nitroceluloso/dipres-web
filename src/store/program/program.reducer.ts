@@ -1,6 +1,6 @@
 
 import { ProgramPayload, ActionProgram } from "./types";
-import { defaultState } from "./program.helper";
+import { defaultState } from "./program.store.helper";
 
 export const programReducer = (state = defaultState, action: ActionProgram): ProgramPayload => {
 

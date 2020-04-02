@@ -1,5 +1,5 @@
 
-import { Action } from "redux";
+import { Action, Dispatch } from "redux";
 
 import { criticalErrorPayload } from "./critical-error/types";
 import { modalPayload } from "./loading-modal/types";
@@ -10,8 +10,8 @@ export interface ActionI<A, B> extends Action<A>{
     payload: B
 }
 
-export interface Payload {
-    payload: any;
+export interface Payload<T = any> {
+    payload: T;
 }
 
 export interface GlobalState {
@@ -19,8 +19,4 @@ export interface GlobalState {
     loading: modalPayload;
     redirect: redirectPayload;
     program: ProgramPayload
-}
-
-export interface thunkWrapper {
-    (dispatch: Function, getState: any) : Promise<any>;
 }

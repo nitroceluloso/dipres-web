@@ -1,8 +1,8 @@
 
-import { criticalErrorReducer as criticalError } from "./critical-error/reducer";
-import { loadingModalReducer as loading } from "./loading-modal/reducer";
-import { redirectReducer as redirect} from "./redirect/reducer";
-import { programReducer as program } from "./program/reducer";
+import { criticalErrorReducer as criticalError } from "./critical-error/criticalError.reducer";
+import { loadingModalReducer as loading } from "./loading-modal/loadingModal.reducer";
+import { redirectReducer as redirect} from "./redirect/redirect.reducer";
+import { programReducer as program } from "./program/program.reducer";
 
 export const globalReducer = {
     criticalError,
