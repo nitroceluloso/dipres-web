@@ -5,6 +5,7 @@ import { RouteProps, Route } from 'react-router-dom';
 
 import { CriticalErrorContainer } from "../../section/critical-error/CriticalError.container";
 import { HomeContainer } from "../../section/home/Home.container";
+import { ProgramContainer } from "../../section/program/Program.container";
 
 export const routes: Array<RoutesInterface> = [
     {
@@ -18,6 +19,12 @@ export const routes: Array<RoutesInterface> = [
         path: "/home",
         exact: true,
         component: HomeContainer
+    },
+    {
+        key: "PROGRAM",
+        path: ["/program", "/"],
+        exact: true,
+        component: ProgramContainer
     }
 ];
 

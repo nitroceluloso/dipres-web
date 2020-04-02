@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { GlobalState } from "../../store/types";
 import HomeComponent from "./Home.component";
 
-export const mapStateToProps = (state: Partial<GlobalState>) => {
+export const mapStateToProps = (state: GlobalState) => {
     return {}
 }
 
