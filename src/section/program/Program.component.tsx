@@ -1,28 +1,19 @@
 
 import * as React from 'react';
+import './Program.scss';
 
 import { ProgramSectionProps, ProgramState } from "./types";
-import { fetchProgramAction } from "../../store/program/actions";
-
 import ProgramChart from "./components/program-chart/ProgramChart";
 import ProgramTable from "./components/program-table/ProgramTable.component";
-// import { DispatchProp } from 'react-redux';
 
 class Program extends React.Component<ProgramSectionProps, ProgramState> {
-    constructor(props: ProgramSectionProps) {
-        super(props);
-        this.state = {
-            data: []
-        };
-    }
 
     componentDidMount() {
-        const { dispatch } = (this.props as any);
-        dispatch(fetchProgramAction());
+        this.props.getPrograms();
     }
 
     render() {
-        const { programListRaw = [], programByResult } = this.props;
+        const { programListRaw, programByResult } = this.props;
 
         return (
             <div className="Program">
