@@ -5,7 +5,7 @@ import "normalize.css"
 import { Provider } from "react-redux";
 import store from "./store/index";
 import { BrowserRouter } from "react-router-dom";
-import { RouteGenerator } from "./common/routes/routes";
+import { RouteGenerator } from "./common/routes/routes.component";
 
 import Redirect from "./shared/redirect/Redirect.container";
 
