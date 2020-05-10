@@ -1,0 +1,27 @@
+
+@import 'src/common/style/color.scss';
+
+#root {
+    & > nav {
+        background-color: $green;
+        padding: 0rem 2rem;
+    }
+
+    & > nav ul {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+    }
+
+    & > nav ul li {
+        list-style: none;
+        margin-right: 2.6rem;
+        cursor: pointer;
+        padding: 1rem;
+    }
+
+    & > nav ul li.selected {
+        background-color: $green-light;
+        border-radius: 0.5rem;
+    }
+}

@@ -4,6 +4,8 @@ import { ActionI } from "../types";
 
 export type redirectStatus = "DO_REDIRECT" | "CLEAR_REDIRECT";
 
+export type redirectParam = RoutesKeys;
+
 export interface redirectPayload {
     flagRedirect: boolean;
     destination: RoutesKeys;

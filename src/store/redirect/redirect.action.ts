@@ -1,11 +1,11 @@
 
 import { actionCreator } from "../store.helper";
-import { redirectStatus, redirectPayload } from "./types";
+import { redirectStatus, redirectPayload, redirectParam } from "./types";
 import { defaultState } from "./redirect.helper";
 
-export const redirect = (data: redirectPayload) => {
+export const redirect = (data: redirectParam) => {
     return actionCreator<redirectStatus, redirectPayload>("DO_REDIRECT", {
-        ...data,
+        destination: data,
         flagRedirect: true,
     });
 }

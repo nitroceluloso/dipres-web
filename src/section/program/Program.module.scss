@@ -1,8 +1,12 @@
 
-.Program{
+@import 'src/common/style/color';
+
+.Program {
+
     .Program__chart {
         & > div {
             margin: auto;
         }
     }
+
 }
