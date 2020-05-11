@@ -1,9 +1,9 @@
 
 import { RoutesInterface } from "./types";
 
-import { CriticalErrorContainer } from "../../section/critical-error/CriticalError.container";
-import { HomeContainer } from "../../section/home/Home.container";
-import { ProgramContainer } from "../../section/program/Program.container";
+import { CriticalErrorContainer } from "../../sections/critical-error/CriticalError.container";
+import { HomeContainer } from "../../sections/home/Home.container";
+import { ProgramContainer } from "../../sections/program/Program.container";
 
 export const routes: Array<RoutesInterface> = [
     {

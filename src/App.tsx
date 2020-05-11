@@ -1,7 +1,7 @@
 
 import React from 'react';
 import "normalize.css"
-import './common/style/index.scss';
+import "./assets/styles/index.scss";
 
 import { Provider } from "react-redux";
 import store from "./store/index";

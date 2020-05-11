@@ -4,21 +4,14 @@ import { defaultState } from "./redirect.helper";
 
 export const redirectReducer = (state = defaultState, action: redirectAction) => {
 
-    let response;
-
     switch (action.type) {
         case "DO_REDIRECT":
-            response = action.payload;
-        break;
+            return action.payload;
 
         case "CLEAR_REDIRECT":
-            response = action.payload;
-        break;
+            return action.payload;
 
         default:
-            response = state;
-        break;
+            return state;
     }
-
-    return response;
 }
