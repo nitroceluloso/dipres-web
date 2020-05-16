@@ -1,8 +1,12 @@
 
-.Program{
+// @import 'src/assets/style/color.scss';
+
+.Program {
+
     .Program__chart {
         & > div {
             margin: auto;
         }
     }
+
 }

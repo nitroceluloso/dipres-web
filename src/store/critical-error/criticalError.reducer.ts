@@ -4,22 +4,15 @@ import { actionCriticalError, criticalErrorPayload } from "./types";
 
 export const criticalErrorReducer = (state = defaultState, action: actionCriticalError): criticalErrorPayload => {
 
-    let newState;
-
     switch (action.type) {
 
         case "SET_ERROR":
-            newState = action.payload;
-        break;
+            return action.payload;
 
         case "CLEAR_ERROR":
-            newState = action.payload;
-        break;
+            return action.payload;
 
         default:
-            newState = state;
-        break;
+            return state;
     }
-
-    return newState;
 }

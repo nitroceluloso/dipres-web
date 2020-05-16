@@ -1,11 +1,9 @@
 
-import * as React from 'react';
 import { RoutesInterface } from "./types";
-import { RouteProps, Route } from 'react-router-dom';
 
-import { CriticalErrorContainer } from "../../section/critical-error/CriticalError.container";
-import { HomeContainer } from "../../section/home/Home.container";
-import { ProgramContainer } from "../../section/program/Program.container";
+import { CriticalErrorContainer } from "../../sections/critical-error/CriticalError.container";
+import { HomeContainer } from "../../sections/home/Home.container";
+import { ProgramContainer } from "../../sections/program/Program.container";
 
 export const routes: Array<RoutesInterface> = [
     {
@@ -27,15 +25,3 @@ export const routes: Array<RoutesInterface> = [
         component: ProgramContainer
     }
 ];
-
-export const RouteGenerator = () => {
-    return (
-        <React.Fragment>
-            {
-                routes.map((el: RouteProps) => {
-                    return <Route {...el} />
-                })
-            }
-        </React.Fragment>
-    )
-}

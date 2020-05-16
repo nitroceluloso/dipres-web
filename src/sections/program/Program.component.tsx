@@ -1,6 +1,6 @@
 
 import * as React from 'react';
-import './Program.scss';
+import programModule from './Program.module.scss';
 
 import { ProgramSectionProps, ProgramState } from "./types";
 import ProgramChart from "./components/program-chart/ProgramChart";
@@ -16,10 +16,10 @@ class Program extends React.Component<ProgramSectionProps, ProgramState> {
         const { programListRaw, programByResult } = this.props;
 
         return (
-            <div className="Program">
+            <div className={`${programModule.Program}`}>
                 <h1>Programas</h1>
 
-                <div className="Program__chart">
+                <div className={`${programModule.Program__chart}`}>
                     <ProgramChart data={programByResult} />
                 </div>
 
