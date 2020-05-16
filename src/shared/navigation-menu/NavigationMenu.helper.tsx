@@ -7,9 +7,9 @@ import { MenuGeneratorProps, RoutesInterface, RoutesKeys } from './types';
 
 const menuItems = new Map<string, RoutesKeys>([
     ['Programas', 'PROGRAM'],
-    ['Ministerios', ''],
-    ['Servicios Publicos', ''],
-    ['Sobre el sitio', ''],
+    ['Ministerios', 'MINISTRY'],
+    ['Servicios Publicos', 'PUBLIC-SERVICE'],
+    // ['Sobre el sitio', 'ABOUT'],
 ]);
 
 export const menuGeneration = (params: MenuGeneratorProps) =>

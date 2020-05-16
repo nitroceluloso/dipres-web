@@ -1,0 +1,12 @@
+
+// @import 'src/assets/style/color.scss';
+
+.Ministry {
+
+    &__chart {
+        & > div {
+            margin: auto;
+        }
+    }
+
+}

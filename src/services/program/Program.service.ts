@@ -10,7 +10,7 @@ const programPath = {
 export class ProgramService {
 
     static getPrograms(): Promise<Array<Program>> {
-        return AxiosFacade.get(programPath["get"]);
+        return AxiosFacade.get(programPath.get);
     }
 
 }
