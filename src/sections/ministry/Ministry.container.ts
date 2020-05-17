@@ -1,22 +1,26 @@
 
 import { connect } from 'react-redux';
 import { GlobalState } from "../../store/types";
-import { grouByResult } from "../../store/program/program.selector";
-import ProgramComponent from "./Ministry.component";
+import { linkMinistryToProgram } from "../../store/ministry/Ministry.selector";
+import MinistryComponent from "./Ministry.component";
 
 import { fetchProgramAction } from '../../store/program/program.action';
+import { fetchMinistryAction } from "../../store/ministry/Ministry.action";
 
 export const mapStateToProps = (state: GlobalState) => {
+    const ministryList = state.ministry.list;
+    const programList = state.program.list;
+
     return {
-        programListRaw: state.program.list,
-        programByResult: grouByResult(state)
+        ministryList: linkMinistryToProgram(ministryList, programList),
     }
 }
 
 export const mapDispatchToProps = (dispatch: Function) => {
     return {
-        getPrograms: () => { dispatch(fetchProgramAction()) }
+        getPrograms: () => { dispatch(fetchProgramAction()) },
+        getMinistry: () => { dispatch(fetchMinistryAction()) }
     };
 }
 
-export const MinistryContainer = connect(mapStateToProps, mapDispatchToProps)(ProgramComponent);
+export const MinistryContainer = connect(mapStateToProps, mapDispatchToProps)(MinistryComponent);

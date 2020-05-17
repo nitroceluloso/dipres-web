@@ -1,6 +1,4 @@
 
-import { Program } from "../../../../services/program/types";
-
-export interface ProgramTableProps {
-    programList: Array<Program>
+export interface MinistryTableProps {
+    ministryList: Array<any>
 }

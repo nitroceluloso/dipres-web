@@ -3,7 +3,8 @@
 
 .Ministry {
 
-    &__chart {
+    .ministry__chart {
+        color: red;
         & > div {
             margin: auto;
         }

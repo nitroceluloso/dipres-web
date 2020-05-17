@@ -1,6 +1,7 @@
 
 import * as React from 'react';
-import programModule from './Ministry.module.scss';
+import ministryStyle from './Ministry.module.scss';
+
 
 import { ProgramSectionProps, ProgramState } from "./types";
 import MinistryChart from "./components/ministry-chart/MinistryChart";
@@ -9,23 +10,22 @@ import MinistryTable from "./components/ministry-table/MinistryTable.component";
 class Ministry extends React.Component<ProgramSectionProps, ProgramState> {
 
     componentDidMount() {
-        this.props.getPrograms();
+        this.props.getMinistry();
     }
 
     render() {
-        const { programListRaw, programByResult } = this.props;
-        console.log(programListRaw);
-        
+        const { ministryList } = this.props;
+
         return (
-            <div className={`${programModule.Program}`}>
+            <div className={`${ministryStyle.Ministry}`}>
                 <h1>Ministerios</h1>
 
-                <div className={`${programModule.Program__chart}`}>
-                    <MinistryChart data={programByResult} />
+                <div className="ministry__chart">
+                    {/* <MinistryChart data={programByResult} /> */}
                 </div>
 
-                <div className="Program__table">
-                    <MinistryTable programList={programListRaw} />
+                <div className="ministry__table">
+                    <MinistryTable ministryList={ministryList} />
                 </div>
 
             </div>
