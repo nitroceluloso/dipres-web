@@ -1,6 +1,6 @@
 
 import * as React from 'react';
-import ministryStyle from './Ministry.module.scss';
+import './Ministry.scss';
 
 
 import { ProgramSectionProps, ProgramState } from "./types";
@@ -17,7 +17,7 @@ class Ministry extends React.Component<ProgramSectionProps, ProgramState> {
         const { ministryList } = this.props;
 
         return (
-            <div className={`${ministryStyle.Ministry}`}>
+            <div className="Ministry">
                 <h1>Ministerios</h1>
 
                 <div className="ministry__chart">

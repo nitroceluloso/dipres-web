@@ -1,5 +1,5 @@
 
-import { RoutesInterface as RoutesInterfaceType , RoutesKeys as RoutesKeysType } from "../../common/routes/types";
+import { RoutesInterface as RoutesInterfaceType , RoutesKeys as RoutesKeysType } from "../../routes/types";
 
 export type RoutesInterface = RoutesInterfaceType;
 export type RoutesKeys = RoutesKeysType;

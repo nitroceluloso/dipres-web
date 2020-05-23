@@ -1,6 +1,6 @@
 
-import { routes } from "../../common/routes/routes";
-import { RoutesInterface } from "../../common/routes/types";
+import { routes } from "../../routes/routes.helper";
+import { RoutesInterface } from "../../routes/types";
 
 /**
  * Return the route by the key provided

@@ -8,7 +8,7 @@ export interface TableTdProps {
 
 const TableTd: React.SFC<TableTdProps> = ({ cell }) => {
     return (
-        <td className="ui-table__body-cell">
+        <td className="table__body-cell">
             { cell.render("Cell") }
         </td>
     );

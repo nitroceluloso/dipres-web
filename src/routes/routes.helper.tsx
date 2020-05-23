@@ -1,10 +1,10 @@
 
 import { RoutesInterface } from "./types";
 
-import { CriticalErrorContainer } from "../../sections/critical-error/CriticalError.container";
-import { HomeContainer } from "../../sections/home/Home.container";
-import { ProgramContainer } from "../../sections/program/Program.container";
-import { MinistryContainer } from "../../sections/ministry/Ministry.container";
+import { CriticalErrorContainer } from "../sections/critical-error/CriticalError.container";
+import { HomeContainer } from "../sections/home/Home.container";
+import { ProgramContainer } from "../sections/program/Program.container";
+import { MinistryContainer } from "../sections/ministry/Ministry.container";
 
 export const routes: Array<RoutesInterface> = [
     {

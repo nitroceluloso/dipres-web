@@ -2,7 +2,7 @@
 import { connect } from 'react-redux';
 import NavigationMenu from "./NavigationMenu.component";
 import { redirect } from "../../store/redirect/redirect.action";
-import { RoutesKeys } from '../../common/routes/types';
+import { RoutesKeys } from '../../routes/types';
 
 export const mapStateToProps = () => ({})
 

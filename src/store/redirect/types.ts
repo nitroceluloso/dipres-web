@@ -1,5 +1,5 @@
 
-import { RoutesKeys } from "../../common/routes/types";
+import { RoutesKeys } from "../../routes/types";
 import { Action } from "../types";
 
 export type redirectStatus = "DO_REDIRECT" | "CLEAR_REDIRECT";

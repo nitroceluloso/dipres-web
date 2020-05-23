@@ -1,5 +1,5 @@
 
-import { RoutesKeys } from "../../common/routes/types";
+import { RoutesKeys } from "../../routes/types";
 
 export interface RedirectProps {
     flagRedirect: boolean,
