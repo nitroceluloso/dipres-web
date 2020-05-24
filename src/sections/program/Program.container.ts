@@ -4,8 +4,6 @@ import { GlobalState } from "../../store/types";
 import { grouByResult } from "../../store/program/program.selector";
 import ProgramComponent from "./Program.component";
 
-import { fetchProgramAction } from '../../store/program/program.action';
-
 export const mapStateToProps = (state: GlobalState) => {
     return {
         programListRaw: state.program.list,
@@ -14,9 +12,7 @@ export const mapStateToProps = (state: GlobalState) => {
 }
 
 export const mapDispatchToProps = (dispatch: Function) => {
-    return {
-        getPrograms: () => { dispatch(fetchProgramAction()) }
-    };
+    return {};
 }
 
 export const ProgramContainer = connect(mapStateToProps, mapDispatchToProps)(ProgramComponent);

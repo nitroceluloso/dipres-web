@@ -8,7 +8,10 @@ import { tableHeader } from "./MinistryTable.helper";
 
 const ProgramTable: React.SFC<MinistryTableProps> = ({ ministryList }) => {
     return (
-        <Table data={ministryList} config={tableHeader} />
+        <Table
+            data={ministryList}
+            config={tableHeader}
+        />
     );
 }
 

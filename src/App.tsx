@@ -10,8 +10,11 @@ import { RouteGenerator } from "./routes/routes.component";
 
 import Redirect from "./shared/redirect/Redirect.container";
 import NavigationMenu from "./shared/navigation-menu/NavigationMenu.container";
+import { fetchProgramAction } from "./store/program/program.action";
 
 const App: React.FC = () => {
+	store.dispatch(fetchProgramAction() as any);
+
 	return (
 		<Provider store={store}>
 			<BrowserRouter>
