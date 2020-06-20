@@ -2,6 +2,7 @@
 import { Program } from "../../services/program/types";
 import { MinistryService } from "../../services/ministry/types";
 import { Dictionary } from "../../helpers/types";
+import _ from "lodash";
 
 const getSlimProgram = (program : Program) => {
     const { evaluation, year, publicService } = program;
@@ -23,8 +24,10 @@ const setEvaluationDescription = (calification: number) => dictionaryEvaluation[
 
 export const linkMinistryToProgram = ( ministryList: Array<MinistryService>, programList: Array<Program> ) => {
     const indexedPrograms: Dictionary<any> = programList.reduce(indexProgramFn, {});
-    return ministryList.map(ministryMapFn(indexedPrograms));
+    return ministryList.map(ministryMapFn(indexedPrograms)).sort(sortMinistryList);
 }
+
+const sortMinistryList = (prev: any, next: any) => prev.evaluation.value < next.evaluation.value ? 1 : -1;
 
 const indexProgramFn = (acm: any, act: Program) => {
     const key = act.ministry.code;
@@ -44,9 +47,16 @@ const ministryMapFn = (indexedPrograms: Dictionary<any>) => (el: MinistryService
     return {
         ...el,
         programList: linkedArray,
+        programListQuantity: linkedArray.length,
         evaluation: {
             value: averageCalification,
             description: setEvaluationDescription(averageCalification) || '-'
         }
     }
+}
+
+export const groupMinistryByEvaluation = (ministryArray: Array<any>) => {
+    const groupedByEvaluation = _.groupBy(ministryArray, 'evaluation.value');
+    const keys = Object.keys(groupedByEvaluation);
+    return keys.map((key) => ({ name: groupedByEvaluation[key][0].evaluation.description, value: groupedByEvaluation[key].length }));
 }

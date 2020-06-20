@@ -2,27 +2,25 @@
 import * as React from 'react';
 import './Ministry.scss';
 
-
-import { ProgramSectionProps, ProgramState } from "./types";
-import MinistryChart from "./components/ministry-chart/MinistryChart";
+import { MinistrySectionProps, MinistryState } from "./types";
+import MinistryChart from "./components/ministry-chart/MinistryChart.component";
 import MinistryTable from "./components/ministry-table/MinistryTable.component";
 
-class Ministry extends React.Component<ProgramSectionProps, ProgramState> {
+class Ministry extends React.Component<MinistrySectionProps, MinistryState> {
 
     componentDidMount() {
-        this.props.getMinistry();
+        const { getMinistry = () => {} } = this.props;
+        getMinistry();
     }
 
     render() {
-        const { ministryList } = this.props;
+        const { ministryList, ministryChart } = this.props;
 
         return (
             <div className="Ministry">
                 <h1>Ministerios</h1>
 
-                <div className="ministry__chart">
-                    {/* <MinistryChart data={programByResult} /> */}
-                </div>
+                <MinistryChart data={ministryChart} />
 
                 <div className="ministry__table">
                     <MinistryTable ministryList={ministryList} />

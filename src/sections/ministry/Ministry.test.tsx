@@ -1,6 +1,6 @@
 
 import * as React from 'react';
-import { shallow } from "../../enzime.config";
+import { shallow } from "enzyme";
 import Ministry from "./Ministry.component";
 
 describe('Program [component]', () => {
@@ -10,10 +10,10 @@ describe('Program [component]', () => {
         const props = {
             programListRaw: [],
             programByResult: [],
-            getPrograms: jest.fn()
+            getMinistry: jest.fn()
         } as any;
         const cmp = shallow(<Ministry {...props} />);
-        expect(props.getPrograms).toHaveBeenCalled()
+        expect(props.getMinistry).toHaveBeenCalled()
     });
 
 });

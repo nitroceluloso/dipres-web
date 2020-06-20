@@ -9,13 +9,7 @@ export const tableHeader = [
     },
     {
         Header: 'Programas',
-        Cell: ( cellProps: CellProps<any> ) => {
-            return (
-                <div>
-                    {cellProps.row.original.programList.length}
-                </div>
-            )
-        }
+        accessor: 'programListQuantity'
     },
     {
         Header: 'Evaluación promedio',

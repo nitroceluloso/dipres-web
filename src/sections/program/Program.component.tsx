@@ -3,7 +3,7 @@ import * as React from 'react';
 import programModule from './Program.module.scss';
 
 import { ProgramSectionProps } from "./types";
-import ProgramChart from "./components/program-chart/ProgramChart";
+import ProgramChart from "./components/program-chart/ProgramChart.component";
 import ProgramTable from "./components/program-table/ProgramTable.component";
 
 
