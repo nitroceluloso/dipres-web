@@ -1,11 +1,9 @@
 
-import { Program } from "../../services/program/types";
 import { RouteProps } from "react-router";
-import { Dictionary } from "../../helpers/types";
-import { MinistryService } from "../../services/ministry/types";
+import { MinistryListWithPlans } from "../../store/ministry/types";
 
 export interface MinistryProps {
-    ministryList: Array<MinistryService>;
+    ministryList: Array<MinistryListWithPlans>;
     ministryChart: Array<any>
 }
 

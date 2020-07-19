@@ -10,11 +10,11 @@ import { fetchMinistryAction } from "../../store/ministry/Ministry.action";
 export const mapStateToProps = (state: GlobalState) => {
     const ministryList = state.ministry.list;
     const programList = state.program.list;
-    const mergedProgramToMinistry = linkMinistryToProgram(ministryList, programList);
+    const mergedProgramListByMinistry = linkMinistryToProgram(ministryList, programList);
 
     return {
-        ministryList: mergedProgramToMinistry,
-        ministryChart: groupMinistryByEvaluation(mergedProgramToMinistry)
+        ministryList: mergedProgramListByMinistry,
+        ministryChart: groupMinistryByEvaluation(mergedProgramListByMinistry)
     }
 }
 

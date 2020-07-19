@@ -9,3 +9,5 @@ export interface ProgramPayload {
 }
 
 export type ActionProgram = Action<ProgramTypes, ProgramPayload>;
+
+export type ProgramLite = Pick<Program, 'year'|'evaluation' | 'publicService'>;
