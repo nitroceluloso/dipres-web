@@ -1,6 +1,4 @@
 
-import * as React from 'react';
-import { CellProps } from 'react-table';
 
 export const tableHeader = [
     {
