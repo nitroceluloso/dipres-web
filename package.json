@@ -17,6 +17,7 @@
     "@types/react-table": "^7.0.5",
     "@types/redux-logger": "^3.0.7",
     "axios": "^0.19.1",
+    "concurrently": "^5.2.0",
     "dotenv": "^8.2.0",
     "lodash": "^4.17.15",
     "node-sass": "^4.13.1",
@@ -39,9 +40,8 @@
     "test": "react-scripts test",
     "coverage": "react-scripts test --coverage",
     "eject": "react-scripts eject",
-    "mock": "node mock.js",
-    "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "mock": "node mockServer.js",
+    "dev": " concurrently \"yarn start\" \"yarn mock\" "
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -59,11 +59,6 @@
     ]
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^5.3.12",
-    "@storybook/addon-links": "^5.3.12",
-    "@storybook/addons": "^5.3.12",
-    "@storybook/preset-create-react-app": "^1.5.2",
-    "@storybook/react": "^5.3.12",
     "@types/enzyme": "^3.10.4",
     "@types/enzyme-adapter-react-16": "^1.0.5",
     "connect-api-mocker": "^1.7.0",

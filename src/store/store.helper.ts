@@ -1,5 +1,5 @@
 
-import { ActionI, Payload } from "./types";
+import { Action, Payload } from "./types";
 
 /**
  * Return an object with the structure of an action.
@@ -7,7 +7,7 @@ import { ActionI, Payload } from "./types";
  * @param payload The object passed for payload
  */
 
-export const actionCreator = <T, P>(type: T, payload: P): ActionI<T, P> => {
+export const actionCreator = <T, P>(type: T, payload: P): Action<T, P> => {
     return {
         type,
         payload

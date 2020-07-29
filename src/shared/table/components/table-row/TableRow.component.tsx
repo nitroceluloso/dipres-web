@@ -7,7 +7,7 @@ import TD from "../table-td/TableTd.component";
 
 const TableRow: React.SFC<TableRowProps> = ({ row }) => {
     return (
-        <tr className="ui-table__body-row">
+        <tr className="table__body-row">
             {
                 row.cells.map((cell: Cell, innerKey: number) => {
                     return ( <TD key={innerKey} cell={cell} /> )

@@ -1,5 +1,5 @@
 
-import { ActionI } from "../types";
+import { Action } from "../types";
 
 export type LoadingModalType = "CHECK_LOADING" | "START_CALL" | "END_CALL";
 
@@ -8,4 +8,4 @@ export interface modalPayload {
     counter?: number;
 }
 
-export type ActionLoadingModal = ActionI<LoadingModalType, modalPayload>;
+export type ActionLoadingModal = Action<LoadingModalType, modalPayload>;

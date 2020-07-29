@@ -1,6 +1,6 @@
 
-import { RoutesKeys } from "../../common/routes/types";
-import { ActionI } from "../types";
+import { RoutesKeys } from "../../routes/types";
+import { Action } from "../types";
 
 export type redirectStatus = "DO_REDIRECT" | "CLEAR_REDIRECT";
 
@@ -11,4 +11,4 @@ export interface redirectPayload {
     destination: RoutesKeys;
 }
 
-export type redirectAction = ActionI<redirectStatus,redirectPayload>;
+export type redirectAction = Action<redirectStatus,redirectPayload>;

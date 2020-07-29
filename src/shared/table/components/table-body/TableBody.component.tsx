@@ -1,16 +1,15 @@
 
 import * as React from 'react';
-import "./TableBody.scss";
 
 import { Row } from 'react-table';
-import TableRow from "./components/table-row/TableRow";
+import TableRow from "../table-row/TableRow.component";
 import { TableBodyProps } from "./types";
 
 const TableBody: React.SFC<TableBodyProps> = (props) => {
     const { data, prepareRow } = props;
 
     return (
-        <tbody className="ui-table__body">
+        <tbody className="table__body">
             {
                 data.map((row: Row, idx: number) => {
                     prepareRow(row);

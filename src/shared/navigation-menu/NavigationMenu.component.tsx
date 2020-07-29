@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import './NavigationMenu.scss';
+import "./NavigationMenu.scss";
 import { NavigationMenuContainer } from "./types";
 
 import { menuGeneration, checkActualPath } from "./NavigationMenu.helper";

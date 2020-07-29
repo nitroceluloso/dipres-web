@@ -1,0 +1,42 @@
+
+$table-header: #e0e0e0;
+$table-row-even: #f2f2f2;
+$table-row-odd: transparent;
+
+.table {
+
+    border-collapse: collapse;
+
+    .table__header {
+        background-color: $table-header;
+
+        th{
+            padding: 0.8rem 1.6rem;
+        }
+    }
+
+
+    .table__body {
+
+        &-row:nth-child(even) {
+
+            .table__body-cell {
+                background-color: $table-row-even;
+            }
+
+        }
+
+        &-row:nth-child(odd) {
+
+            .table__body-cell {
+                background-color: $table-row-odd;
+            }
+
+        }
+
+        &-cell {
+            padding: 1rem;
+        }
+
+    }
+}

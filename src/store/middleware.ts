@@ -1,6 +1,6 @@
 
 import thunk from "redux-thunk";
-import { enviromentVariables } from "../common/config/index";
+import { enviromentVariables } from "../config/index";
 import { createLogger } from "redux-logger"
 
 const middlewares: Array<any> = [

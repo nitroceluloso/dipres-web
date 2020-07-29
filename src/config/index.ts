@@ -1,6 +1,6 @@
 
 import { config } from "dotenv";
-import { version } from "../../../package.json";
+import { version } from "../../package.json";
 
 config();
 

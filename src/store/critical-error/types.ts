@@ -1,5 +1,5 @@
 
-import { ActionI } from "../types";
+import { Action } from "../types";
 
 export type criticalErrorStatus = "SET_ERROR" | "CLEAR_ERROR";
 
@@ -8,4 +8,4 @@ export interface criticalErrorPayload {
     message: string;
 }
 
-export type actionCriticalError = ActionI<criticalErrorStatus, criticalErrorPayload>;
+export type actionCriticalError = Action<criticalErrorStatus, criticalErrorPayload>;
